@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pydantic-stuff"
+version = "0.1.0"
+description = ""
+authors = ["Kornelijus Tvarijanavičius <kornelijus@tvaria.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "pydantic_stuff" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.0.3"
+pydantic-settings = "^2.0.2"
+pydantic-extra-types = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
